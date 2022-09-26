@@ -22,3 +22,14 @@ func TestCast(t *testing.T) {
 	t.Log(cast.ToBool("1"))
 	t.Log(cast.ToBool("8.99"))
 }
+
+func TestCastMore(t *testing.T) {
+	t.Log("cast.ToTime")
+	t.Log(cast.ToTime("2022-01-02 01:01:01 +0000 UTC"))
+
+	t.Log("cast.ToDuration")
+	t.Log(cast.ToDuration(1e9))
+
+	t.Log("cast.ToStringSlice")
+	t.Log(cast.ToStringSlice([]int{1, 3}))
+}
