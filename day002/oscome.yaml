@@ -1,0 +1,4 @@
+name: oscome13
+mode: debug
+log:
+  level: info
