@@ -6,4 +6,5 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/viper v1.13.0
+	github.com/urfave/cli/v2 v2.16.3 // indirect
 )
